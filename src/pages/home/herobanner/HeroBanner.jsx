@@ -27,11 +27,11 @@ const HeroBanner = () => {
      {!loading&& <div className="backdrop-img">
       <Img src={background}/>
       </div>}
-      <div className="opacity"></div>
+      <div className="opacity-layer"></div>
 
       <ContentWrapper>
       <div className="wrapper">
-        <div className="herBannerContent">
+        <div className="heroBannerContent">
           <span className="title">Welcome.</span>
           <span className="subTitle">
             Millions of movies,TV shows and people to discover.
@@ -52,3 +52,5 @@ const HeroBanner = () => {
 }
 
 export default HeroBanner
+
+
