@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 
 import {BrowserRouter,Route,Routes} from "react-router-dom";
-import PageNotFound from "./pages/404/pageNotFound";
+import PageNotFound from "./pages/404/PageNotFound";
 import Explore from "./pages/explore/Explore";
 import SearchResult from "./pages/searchResult/SearchResult";
 import Details from "./pages/details/Details";
